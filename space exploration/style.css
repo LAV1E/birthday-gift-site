@@ -1,0 +1,73 @@
+body{
+    background-color: pink;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 4px 0 #a2d2ff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+}
+#img{
+    border-radius: 100%;
+    width: 200px;
+    border: 3px solid #a2d2ff;
+}
+h2,h4{
+    background: #EFB0C9;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px 10px;
+
+    
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("./gift.jpg");
+    background-size: cover;
+
+
+
+}
+#gift-img-cheers{
+    height: 200px;
+}
+
+.gift-img:hover{
+    background-image: url("https://media.tenor.com/hI-oOVvwasYAAAAC/happy.gif");
+}
+#gift-img-happy:hover{
+    background-image: url("https://rochakjankari.in/wp-content/uploads/2021/02/giphy6-3.gif");
+}
+
+#gift-img-genius:hover{
+    background-image: url("https://media.tenor.com/YQ-_EJYMWwwAAAAM/asho-mona-lisa.gif");
+}
+#gift-img-badass:hover{
+    background-image: url("http://img2.thejournal.ie/inline/2499585/original?width=415&version=2499585");
+}
+
+#gift-img-cheers:hover{
+    
+    background-image: url("https://www.gifimages.pics/images/quotes/english/general/cheers-gif-cartoon-52650-299040.gif")
+}
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin:  40px auto 20px;
+}
+a{
+    color: white;
+}
+
